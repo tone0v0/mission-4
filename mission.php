@@ -5,6 +5,8 @@ class SanctuaryGateway {
     // 担当A: public bool $sunStone = true;
     // 担当B: public bool $moonStone = true;
     public string $placeholderStone = "NONE"; // ←これは残す
+    public bool $sunStone = true;
+
     // ==========================================
 
     public function unlock(): void {
